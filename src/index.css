@@ -18,3 +18,8 @@
 .linkbold {
   font-weight: 600;
 }
+
+.circleimages {
+  max-width: 70px;
+  padding: 40px 20px;
+}

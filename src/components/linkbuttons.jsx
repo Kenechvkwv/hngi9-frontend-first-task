@@ -12,6 +12,7 @@ function Buttons(props) {
               id={props.id}
               target="_blank"
               rel="noopener noreferrer"
+              ref_id={props.ref_id}
             >
               {props.linkname}
             </a>

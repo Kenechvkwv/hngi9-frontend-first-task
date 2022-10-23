@@ -1,6 +1,9 @@
 import React from "react";
 import Profile from "./components/profile";
 import Buttons from "./components/linkbuttons";
+import LogoLink from "./components/logolinks";
+// import slacklogo from "./media/slackLogo.png";
+// import githublogo from "./media/githubLogo.png";
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
         link="https://books.zuri.team/"
         linkname="Python Books"
         id="book__python"
+        ref_id=""
       />
       <Buttons
         link="https://background.zuri.team/"
@@ -36,6 +40,7 @@ function App() {
         linkname="Design Books"
         id="book__design"
       />
+      <LogoLink />
     </div>
   );
 }
