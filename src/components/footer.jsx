@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../media/Vector.png";
 import image2 from "../media/I4G.png";
+import red from "../media/reddot.png";
 
 const Footer = () => {
   return (
@@ -15,6 +16,7 @@ const Footer = () => {
         <div className="col-lg-4 ps-6">
           <img src={image2} alt="" />
         </div>
+        <img src={red} alt="" className="reddot" />
       </div>
     </div>
   );

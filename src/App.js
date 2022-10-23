@@ -11,7 +11,7 @@ function App() {
       <Buttons
         link="https://www.twitter.com/kenechvkwv"
         linkname="Twitter"
-        id="Twitter"
+        id="twitter"
       />
       <Buttons
         link="https://training.zuri.team/"

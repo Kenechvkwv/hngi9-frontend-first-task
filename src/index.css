@@ -29,10 +29,14 @@ body {
   padding: 40px 20px;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 760px) {
   .nodisplay {
     display: none;
   }
+
+  /*  #twitter {
+    width: 50%;
+  } */
 }
 
 .text-grey {
@@ -45,4 +49,11 @@ body {
 }
 .ps-6 {
   padding-left: 200px;
+}
+
+.reddot {
+  width: 34px;
+  position: relative;
+  bottom: 28px;
+  left: 71px;
 }
