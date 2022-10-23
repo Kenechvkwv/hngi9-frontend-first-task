@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  font-family: Inter;
+}
 .mycontainer {
   margin: 0 250px;
 }
@@ -22,4 +27,22 @@
 .circleimages {
   max-width: 70px;
   padding: 40px 20px;
+}
+
+@media screen and (max-width: 599px) {
+  .nodisplay {
+    display: none;
+  }
+}
+
+.text-grey {
+  color: #667085;
+  font-weight: 400;
+}
+
+.pe-6 {
+  padding-right: 200px;
+}
+.ps-6 {
+  padding-left: 200px;
 }

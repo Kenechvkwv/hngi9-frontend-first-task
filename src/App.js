@@ -2,8 +2,7 @@ import React from "react";
 import Profile from "./components/profile";
 import Buttons from "./components/linkbuttons";
 import LogoLink from "./components/logolinks";
-// import slacklogo from "./media/slackLogo.png";
-// import githublogo from "./media/githubLogo.png";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -41,6 +40,7 @@ function App() {
         id="book__design"
       />
       <LogoLink />
+      <Footer />
     </div>
   );
 }
