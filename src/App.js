@@ -10,8 +10,8 @@ function App() {
       <Profile />
       <Buttons
         link="https://www.twitter.com/kenechvkwv"
-        linkname="Twitter"
-        id="twister"
+        linkname="Twister Test"
+        id="twitter"
       />
       <Buttons
         link="https://training.zuri.team/"
