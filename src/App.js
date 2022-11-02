@@ -10,7 +10,7 @@ function App() {
       <Profile />
       <Buttons
         link="https://www.twitter.com/kenechvkwv"
-        linkname="Twister Test"
+        linkname="Twitter"
         id="twitter"
       />
       <Buttons
